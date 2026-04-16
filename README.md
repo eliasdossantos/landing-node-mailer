@@ -6,7 +6,7 @@
 
 Acesse a landing page publicada:
 
-👉 [Clique aqui](https://landing-node-mailer.vercel.app/)
+👉 <a href="https://landing-node-mailer.vercel.app/" target="_blank" rel="noopener noreferrer">Clique aqui</a>
 
 > Para melhor experiência, visualize diretamente no navegador através do link acima.
 
