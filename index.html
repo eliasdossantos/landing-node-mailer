@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Clínica especializada em Botox, Preenchimento Labial, Lentes de Contato Dental e Harmonização Facial." />
+  <title>
+    Dra. Déborah | Odontologia Estética & Harmonização Facial
+  </title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    #form-alert.success {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    #form-alert.error {
+      background: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="img/logo-001.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-content">
+      <a href="#" class="logo">
+        <span class="logo-text">Dra. Déborah</span>
+        <span class="logo-subtitle">Odontologia Estética</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <!-- <a href="#resultados" class="nav-link">Resultados</a> -->
+        <!-- <a href="#depoimentos" class="nav-link">Depoimentos</a> -->
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn-primary header-btn">Agendar Consulta</a>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="hero-badge">Excelência em Harmonização Facial</span>
+        <h1 class="hero-title">
+          Realce sua <span class="text-accent">Beleza Natural</span>
+        </h1>
+        <p class="hero-description">
+          Tratamentos personalizados em Botox, preenchimento labial, harmonização facial e odontologia clinica. Resultados naturais que valorizam sua expressão
+          única.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contato" class="btn btn-primary btn-lg">Agende sua Avaliação</a>
+          <a href="#servicos" class="btn btn-outline btn-lg">Conheça os Tratamentos</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">+700</span>
+            <span class="stat-label">Pacientes Atendidos</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Satisfação</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="img/foto-001.avif" alt="">
+          <div class="hero-image-decoration"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Rolar para baixo</span>
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nossos Serviços</span>
+        <h2 class="section-title">Tratamentos Especializados</h2>
+        <p class="section-description">
+          Oferecemos os mais avançados procedimentos em harmonização facial e
+          Odontologia clinica, sempre com foco em resultados naturais e na
+          sua segurança.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+              <path d="M8.5 8.5v.01"></path>
+              <path d="M16 15.5v.01"></path>
+              <path d="M12 12v.01"></path>
+              <path d="M11 17v.01"></path>
+              <path d="M7 14v.01"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Botox</h3>
+          <p class="service-description">
+            Suavize linhas de expressão e rugas com a toxina botulínica.
+            Resultados naturais que preservam suas expressões faciais.
+          </p>
+          <ul class="service-features">
+            <li>Rugas da testa</li>
+            <li>Pés de galinha</li>
+            <li>Linhas de expressão</li>
+            <li>Sorriso gengival</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline service-btn">Saiba Mais</a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="featured-badge">Mais Procurado</div>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="service-title">Harmonização Facial</h3>
+          <p class="service-description">
+            Conjunto de procedimentos para equilibrar e harmonizar os traços
+            faciais, realçando sua beleza natural.
+          </p>
+          <ul class="service-features">
+            <li>Rinomodelação</li>
+            <li>Preenchimento malar</li>
+            <li>Contorno mandibula</li>
+            <li>Bigode chinês</li>
+          </ul>
+          <a href="#contato" class="btn btn-primary service-btn">Saiba Mais</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+              <line x1="9" y1="9" x2="9.01" y2="9"></line>
+              <line x1="15" y1="9" x2="15.01" y2="9"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Preenchimento Labial</h3>
+          <p class="service-description">
+            Lábios mais volumosos e definidos com ácido hialurônico.
+            Hidratação profunda e contorno perfeito.
+          </p>
+          <ul class="service-features">
+            <li>Aumento de volume</li>
+            <li>Definição do contorno</li>
+            <li>Hidratação profunda</li>
+            <li>Correção de assimetrias</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline service-btn">Saiba Mais</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Odontologia clinica</h3>
+          <p class="service-description">
+            Transforme seu sorriso com cuidados odontológicos completos.
+            Dentes mais saudáveis, alinhados e com aparência natural.
+          </p>
+          <ul class="service-features">
+            <li>Limpeza</li>
+            <li>Restaurações</li>
+            <li>Clareamento</li>
+            <li>Extrações</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline service-btn">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="sobre">
+    <div class="container about-content">
+      <div class="about-image">
+        <img src="img/foto-001.avif" alt="Dra. Déborah" />
+        <div class="about-image-badge">
+          <span class="badge-number"> CRO 404/PB</span>
+          <span class="badge-text">Especialista em Harmonização Orofacial</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-badge">Sobre</span>
+        <h2 class="section-title">Déborah</h2>
+        <p class="about-description">
+          Com mais de 5 anos de experiência como cirurgiã-dentista e especialista em harmonização facial, a Dra. Déborah é referência em procedimentos minimamente invasivos, realçando a beleza natural de cada paciente.
+        </p>
+        <p class="about-description">
+          Formada pela Uniesp e com especiliazações em HOF,
+          utiliza as técnicas mais avançadas e produtos de alta qualidade para
+          garantir resultados seguros e duradouros.
+        </p>
+        <div class="about-credentials">
+          <div class="credential">
+            <div class="credential-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Formação</h4>
+              <p>Universidade de João Pessoa</p>
+            </div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Especialização</h4>
+              <p>Especialização em Harmonização Facial (em finalização)</p>
+            </div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Certificação</h4>
+              <p>Pós em HF - Capacitação em fios de PDO e instituto ABEC</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contato" class="btn btn-primary btn-lg">Agende uma Consulta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contato">
+    <div class="container contact-content">
+      <div class="contact-info">
+        <span class="section-badge">Contato</span>
+        <h2 class="section-title">Agende sua Consulta</h2>
+        <p class="contact-description">
+          Entre em contato conosco para agendar sua avaliação. Teremos prazer
+          em atendê-lo e esclarecer todas as suas dúvidas.
+        </p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div>
+              <h4>Endereço</h4>
+              <p>
+                Av. Medical - Sala 1801<br />João Pessoa PB
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </div>
+            <div>
+              <h4>Telefone</h4>
+              <p>(83) 99999-9999</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h4>Horário de Funcionamento</h4>
+              <p>Atendimentos realizados exclusivamente com horário agendado.</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-social">
+          <a href="https://github.com/eliasdossantos" class="social-link" aria-label="Instagram"
+            target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://wa.me/5583999999999?text=Olá! Gostaria de agendar uma consulta." class=" social-link" aria-label="Facebook" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrapper">
+        <form class="contact-form" id="contact-form" method="POST">
+          <h3>Envie sua mensagem</h3>
+          <div class="form-group">
+            <label for="name">Nome completo</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="Nome" 
+              required 
+              placeholder="Seu nome" 
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="Email" 
+                required 
+                placeholder="seu@email.com" 
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Telefone</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="Telefone" 
+                placeholder="(83) 99999-9999"
+                maxlength="15"
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Serviço de interesse</label>
+            <select id="service" name="Serviço" required>
+              <option value="">Selecione um serviço</option>
+              <option value="Botox">Botox</option>
+              <option value="Preenchimento Labial">Preenchimento Labial</option>
+              <option value="Harmonização Facial">Harmonização Facial</option>
+              <option value="Lentes de Contato Dental">Lentes de Contato Dental</option>
+              <option value="Odontologia clínica">Odontologia Clínica</option>
+              <option value="Outros">Outros</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea 
+              id="message" 
+              name="Mensagem" 
+              rows="4" 
+              placeholder="Como podemos ajudá-lo?" 
+              required
+            ></textarea>
+          </div>
+          <div id="form-alert" style="display:none; padding:12px; border-radius:6px; margin-bottom:15px;"></div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">
+            Enviar Mensagem
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-text">Dra. Déborah</span>
+            <span class="logo-subtitle">Odontologia Estética</span>
+          </a>
+          <p>
+            Transformando sorrisos e realçando a beleza natural de cada
+            paciente com tratamentos personalizados e de alta qualidade.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <nav>
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="https://www.instagram.com/nayanafranceschini/" target="_blank">Resultados</a>
+            <!-- <a href="#depoimentos">Depoimentos</a> -->
+            <a href="#contato">Contato</a>
+          </nav>
+        </div>
+        <div class="footer-services">
+          <h4>Serviços</h4>
+          <nav>
+            <a href="#servicos">Botox</a>
+            <a href="#servicos">Preenchimento Labial</a>
+            <a href="#servicos">Harmonização Facial</a>
+            <a href="#servicos">Odontologia clinica</a>
+          </nav>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <p>Medical / Sala 1801</p>
+          <p>Epitácio Pessoa - João Pessoa</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dra. Déborah. Todos os direitos reservados.</p>
+        <p>
+          CRO-PB 404 | Criado por 
+          <a href="https://github.com/eliasdossantos" target="_blank" rel="noopener noreferrer">
+            Elias dos Santos
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/5583999999999?text=Olá! Gostaria de agendar uma consulta." class="whatsapp-btn" target="_blank"
+    rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+  <!-- ======================================== -->
+  <!-- MÁSCARA DE TELEFONE (JS PURO) -->
+  <!-- ======================================== -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const phoneInput = document.querySelector("#phone");
+
+      if (!phoneInput) return;
+
+      phoneInput.addEventListener("input", function (e) {
+        let value = e.target.value.replace(/\D/g, "");
+
+        // limita a 11 números
+        if (value.length > 11) value = value.slice(0, 11);
+
+        // aplica máscara
+        if (value.length <= 2) {
+          value = value.replace(/^(\d*)/, "($1");
+        } else if (value.length <= 6) {
+          value = value.replace(/^(\d{2})(\d*)/, "($1) $2");
+        } else if (value.length <= 10) {
+          value = value.replace(/^(\d{2})(\d{4})(\d*)/, "($1) $2-$3");
+        } else {
+          value = value.replace(/^(\d{2})(\d{5})(\d{4})$/, "($1) $2-$3");
+        }
+
+        e.target.value = value;
+      });
+    });
+  </script>
+</body>
+
+</html>
